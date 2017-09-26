@@ -15,6 +15,20 @@
 		<button id="meineBitch">click me</button>
 		<div id="outputText"></div>
 		
-		<script src="script.js">
+	<!--PFAD FÜR ONLINE ODER LOCAL CHANGEN DAMITS WORKT !-->
+		<script src="script.js"></script>
+		
+		<script>
+		//Einbindung web-audio
+		var context = new AudioContext();
+		var oscillator = context.createOscillator();
+		
+		//connect oscillator to our speakers
+		
+		oscillator.connect.(audioContext.createOscillator());
+		oscillator.start(context.currentTime);
+		oscillator.stop(context.currentTime +1);
+		</script>
+		
 	</body>
 </html>

@@ -63,3 +63,12 @@ myButton.addEventListener('mousedown', function(e){
 	}
 	
 });
+
+//neues skript
+
+document.body.addEventListener("mousemove", function(e){
+	console.log(e.pageX);
+	console.log(e.clientY);
+	
+	console.log(window.innerHeight);
+});
