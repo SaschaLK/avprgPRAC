@@ -7,9 +7,21 @@
     <body>
         
         <button id="play">Play!</button>
-        <input type="range" name="Gain" value="50" min="0" max="100" id="gainSlider">
-        <input type="range" name="Panner" value="50" min="0" max="100" id="pannerSlider">
-        <input type="range" name="Delay" value="0" min="0" max="4" id="delaySlider">
+        <br>
+        <div id="gain">
+            <a id="gainText">Gain: </a>
+            <input type="range" name="Gain" value="50" min="0" max="100" id="gainSlider">
+        </div>
+        <br>
+        <div>
+            <a id="pannerText">Panner: </a>
+            <input type="range" name="Panner" value="50" min="-100" max="100" id="pannerSlider">        
+        </div>
+        <br>
+        <div>
+            <a id="delayText">Delay: </a>
+           <input type="range" name="Delay" value="0" min="0" max="4" id="delaySlider">     
+        </div>
         
         
         <script src="script.js"></script>

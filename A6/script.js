@@ -23,3 +23,13 @@ gainSlider.addEventListener("input", function(e){
     var gainValue = this.value /10;
     gainNode.gain.value = gainValue;
 });
+
+pannerSlider.addEventListener("input", function(e){
+    var pannerValue = this.value / 100;
+    panningNode.pan.value = pannerValue;
+});
+
+delaySlider.addEventListener("input", function(e){
+    var delayValue = this.value;
+    delayNode.delayTime.value = delayValue;
+});
