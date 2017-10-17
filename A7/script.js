@@ -5,10 +5,8 @@ var sound = new Audio("sounds/sound.wav");
 var source = context.createMediaElementSource(sound);
 var convolver = context.createConvolver();
 
-
 source.connect(convolver);
 convolver.connect(context.destination);
-
 
 playButton.addEventListener("click", function(e){
     
